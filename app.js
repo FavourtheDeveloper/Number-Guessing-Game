@@ -22,7 +22,6 @@ button.addEventListener('click', function() {
     } else {
         reply.innerHTML = "You guessed Wrong";
         reply.style.color = "red";
-        document.body.style.backgroundColor = "Yellow";
     }
     
     userVal.value  = "";
