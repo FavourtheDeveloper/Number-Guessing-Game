@@ -19,9 +19,11 @@ button.addEventListener('click', function() {
     if(userVal.value == finalRound) {
         reply.innerHTML = "You guessed Right";
         reply.style.color = "yellow";
+        alert("Congrats, You guessed RIGHT");
     } else {
         reply.innerHTML = "You guessed Wrong";
         reply.style.color = "red";
+        document.body.style.backgroundColor = "Yellow";
     }
     
     userVal.value  = "";
